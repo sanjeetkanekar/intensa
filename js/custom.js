@@ -86,13 +86,13 @@ $(function () {
 });
 
 $(document).ready(function () {
-  // Load the first 3 list items from another HTML file
+  // Load the first 4 list items from another HTML file
   //$('#myList').load('externalList.html li:lt(3)');
-  $('.item').slice(0, 3).show();
+  $('.our-webcoderskull ul li').slice(0, 4).show();
   $(".loadmore").click(function (e) { // click event for load more
     e.preventDefault();
-    $(".item:hidden").slice(0, 3).show(); // select next 10 hidden divs and show them
-    if ($(".item:hidden").length == 0) {
+    $(".our-webcoderskull ul li:hidden").slice(0, 4).show(); // select next 10 hidden divs and show them
+    if ($(".our-webcoderskull ul li:hidden").length == 0) {
       $(".loadmore").fadeOut('slow');
     }
   });
@@ -176,3 +176,16 @@ $(document).ready(function () {
     });
   });
 });
+
+
+// function updateCounter() {
+//   fetch('https://api.countapi.xyz/update/gecintensa/gecintensa?amount=-1')
+//       .then(res => res.json())
+//       .then(data => counterElement.innerHTML = data.value)
+// }
+
+// updateCounter()
+
+
+
+// counterElement = document.getElementsByClassName('visitcount')[0];
