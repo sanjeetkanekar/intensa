@@ -145,7 +145,7 @@ h6 {
 /* home section */
 
 #home {
-  background: url('../images/home-bg.png') 50% 0 repeat-y fixed;
+  background: url('https://ik.imagekit.io/jjwv9v5d2vxv/intensa_gallery/home-bg_5fGKo9SNf.png') 50% 0 repeat-y fixed;
   color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -797,7 +797,7 @@ h6 {
 /* team section */
 
 #team {
-  background: #202020 url('../images/team-bg.jpg') 50% 0 repeat-y fixed;
+  background: #202020 url('https://ik.imagekit.io/jjwv9v5d2vxv/intensa_gallery/team-bg_r2azN-NxN.jpg') 50% 0 repeat-y fixed;
   color: #ffffff;
   padding-top: 100px;
   padding-bottom: 100px;
