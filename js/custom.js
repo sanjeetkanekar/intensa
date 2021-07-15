@@ -151,6 +151,11 @@ $(window).load(function () {
 
 $(document).ready(function () {
 
+  $(document).ready(function(){
+    
+    $("#sticker").sticky({topSpacing:0});
+  });
+
   var scrollLink = $('.smoothScroll');
 
   // Smooth scrolling
@@ -176,6 +181,8 @@ $(document).ready(function () {
     });
   });
 });
+
+
 
 
 // function updateCounter() {
