@@ -1,7 +1,7 @@
 body {
   background: #f8f8f8;
   color: #606060;
-  font-family: 'Proxima', sans-serif;
+  font-family: "Proxima", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: relative;
@@ -17,12 +17,12 @@ body {
 }
 
 @font-face {
-  font-family: 'Proxima';
+  font-family: "Proxima";
   src: url(../fonts/ProximaNova-Regular.otf);
 }
 
 @font-face {
-  font-family: 'Proxima Bold';
+  font-family: "Proxima Bold";
   src: url(../fonts/ProximaNova-Bold.otf);
 }
 
@@ -91,7 +91,6 @@ h6 {
   background-size: cover !important;
 }
 
-
 /* preloader section */
 
 .preloader {
@@ -120,7 +119,7 @@ h6 {
 .sk-spinner-rotating-plane.sk-spinner {
   width: 40px;
   height: 40px;
-  background-color: #43C0F6;
+  background-color: #43c0f6;
   border-radius: 50%;
   -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
   animation: sk-rotatePlane 1.2s infinite ease-in-out;
@@ -141,11 +140,11 @@ h6 {
   }
 }
 
-
 /* home section */
 
 #home {
-  background: url('https://ik.imagekit.io/jjwv9v5d2vxv/intensa_gallery/home-bg_5fGKo9SNf.png') 50% 0 repeat-y fixed;
+  background: url("https://ik.imagekit.io/jjwv9v5d2vxv/intensa_gallery/home-bg_5fGKo9SNf.png")
+    50% 0 repeat-y fixed;
   color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -159,28 +158,29 @@ h6 {
   text-align: center;
 }
 
-#home h3, #home h1 {
+#home h3,
+#home h1 {
   letter-spacing: 2px;
 }
 
 @media (max-width: 768px) {
-	#home h3 {
-		font-size: 23px;
-	}
+  #home h3 {
+    font-size: 23px;
+  }
 
-	#home h1 {
-		font-size: 56px;
-	}
+  #home h1 {
+    font-size: 56px;
+  }
 }
 
 @media (max-width: 425px) {
-	#home h3 {
-		font-size: 19px;
-	}
+  #home h3 {
+    font-size: 19px;
+  }
 
-	#home h1 {
-		font-size: 40px;
-	}
+  #home h1 {
+    font-size: 40px;
+  }
 }
 
 /* navigation section */
@@ -211,15 +211,15 @@ h6 {
   color: #42a5f5;
 }
 
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
   color: #42a5f5;
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
   color: #42a5f5;
   background-color: transparent;
 }
@@ -239,12 +239,11 @@ h6 {
   background-color: transparent;
 }
 
-
 /* intro section */
 
 #intro {
-	padding-top: 180px;
-	padding-bottom: 140px;
+  padding-top: 180px;
+  padding-bottom: 140px;
 }
 
 #intro h4 {
@@ -252,99 +251,100 @@ h6 {
 }
 
 @media (max-width: 768px) {
- 	 #intro {
-      	padding-top: 70px;
-      	padding-bottom: 60px;
-  	}
+  #intro {
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
 }
 
 /* Vision mission section */
 
-.card{
+.card {
   margin-bottom: 5%;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   height: 200px;
   background-color: #f8f8f8;
 }
 
-.card-vision{
+.card-vision {
   margin-bottom: 5%;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   background-color: #f8f8f8;
 }
 
 #missonsection {
-    padding: 7em 0;
-    clear: both;
-    background-color: white;
+  padding: 7em 0;
+  clear: both;
+  background-color: white;
 }
-.card-body{
+.card-body {
   margin: 0% 0% 0% 3%;
   padding: 6% 0%;
   font-size: 10px;
-  
 }
 
 .card-text {
-    padding-top: 9px;
-    margin: 10px;
-    font-size: 12px;
-    font-weight: 500;
+  padding-top: 9px;
+  margin: 10px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
-.card-number{
-    font-size: 20px;
-    color: white;
-    width: 44px;
-    height: 44px;
-    background: #42a5f5;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
+.card-number {
+  font-size: 20px;
+  color: white;
+  width: 44px;
+  height: 44px;
+  background: #42a5f5;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
 }
 
-.card:hover,.card-vision:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06)
+.card:hover,
+.card-vision:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
 .card-vision-text {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .card-vision-body {
-    padding: 40px;
+  padding: 40px;
 }
 
 @media (max-width: 768px) {
-	.card-vision-body {
-		padding: 30px;
-	}
-	.card-vision-text {
-		font-size: 16px;
-	}
+  .card-vision-body {
+    padding: 30px;
+  }
+  .card-vision-text {
+    font-size: 16px;
+  }
 
-	#missonsection {
-		padding: 3em 0;
-	}
+  #missonsection {
+    padding: 3em 0;
+  }
 
-	.missiontitle,.vissiontitle{
-		margin: 46px 0px;
-	}
+  .missiontitle,
+  .vissiontitle {
+    margin: 46px 0px;
+  }
 
-	.mission-card-deck .card {
-		margin-bottom: 15%;
-	}
+  .mission-card-deck .card {
+    margin-bottom: 15%;
+  }
 }
 
 @media (max-width: 425px) {
-	.card-vision-body {
-		padding: 17px;
-	}
-	.card-vision-text {
-		font-size: 14px;
-	}
+  .card-vision-body {
+    padding: 17px;
+  }
+  .card-vision-text {
+    font-size: 14px;
+  }
 }
 /* event,timeline section */
 
@@ -506,7 +506,7 @@ h6 {
 }
 
 #mobtimeline .containera:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 50%;
@@ -514,7 +514,7 @@ h6 {
   width: 2px;
   height: 100%;
   background: #fff;
-  z-index: 1
+  z-index: 1;
 }
 
 .timeline-block {
@@ -538,7 +538,7 @@ h6 {
 
 .timeline-block-left {
   float: left;
-  direction: rtl
+  direction: rtl;
 }
 
 .marker {
@@ -578,7 +578,7 @@ h6 {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 25px;
-  font-weight: 500
+  font-weight: 500;
 }
 
 .timeline-content span {
@@ -603,169 +603,168 @@ h6 {
 }
 
 #mobtimeline {
-	position: relative;
-	max-width: 1200px;
-	margin: 0 auto;
-  }
-  
-  /* The actual timeline (the vertical ruler) */
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+#mobtimeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+#mobtimeline .container {
+  padding: 10px 50px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+#mobtimeline .container::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #61d4e8;
+  border: 4px solid #2da1e7;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+#mobtimeline .left {
+  left: 0;
+}
+
+/* Place the container to the right */
+#mobtimeline .right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+#mobtimeline .left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+#mobtimeline .right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+#mobtimeline .right::after {
+  left: -16px;
+}
+
+/* The actual content */
+#mobtimeline .content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+#mobtimeline .title {
+  color: white;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 640px) and (max-width: 768px) {
   #mobtimeline::after {
-	content: '';
-	position: absolute;
-	width: 6px;
-	background-color: white;
-	top: 0;
-	bottom: 0;
-	left: 50%;
-	margin-left: -3px;
+    left: 28px;
+    margin-top: 14%;
   }
-  
-  /* Container around content */
-   #mobtimeline .container {
-	padding: 10px 50px;
-	position: relative;
-	background-color: inherit;
-	width: 50%;
+}
+
+@media (min-width: 462px) and (max-width: 639px) {
+  #mobtimeline::after {
+    margin-top: 18%;
   }
-  
-  /* The circles on the timeline */
-  #mobtimeline .container::after {
-	content: '';
-	position: absolute;
-	width: 25px;
-	height: 25px;
-	right: -17px;
-	background-color: #61D4E8;
-	border: 4px solid #2DA1E7;
-	top: 15px;
-	border-radius: 50%;
-	z-index: 1;
+}
+
+@media (min-width: 375px) and (max-width: 461px) {
+  #mobtimeline::after {
+    margin-top: 28%;
   }
-  
-  /* Place the container to the left */
-  #mobtimeline .left {
-	left: 0;
+}
+
+@media (max-width: 374px) {
+  #mobtimeline::after {
+    margin-top: 31%;
   }
-  
-  /* Place the container to the right */
-  #mobtimeline .right {
-	left: 50%;
-  }
-  
-  /* Add arrows to the left container (pointing right) */
-  #mobtimeline .left::before {
-	content: " ";
-	height: 0;
-	position: absolute;
-	top: 22px;
-	width: 0;
-	z-index: 1;
-	right: 30px;
-	border: medium solid white;
-	border-width: 10px 0 10px 10px;
-	border-color: transparent transparent transparent white;
-  }
-  
-  /* Add arrows to the right container (pointing left) */
-   #mobtimeline .right::before {
-	content: " ";
-	height: 0;
-	position: absolute;
-	top: 22px;
-	width: 0;
-	z-index: 1;
-	left: 30px;
-	border: medium solid white;
-	border-width: 10px 10px 10px 0;
-	border-color: transparent white transparent transparent;
-  }
-  
-  /* Fix the circle for containers on the right side */
-  #mobtimeline .right::after {
-	left: -16px;
-  }
-  
-  /* The actual content */
-   #mobtimeline .content {
-	padding: 20px 30px;
-	background-color: white;
-	position: relative;
-	border-radius: 6px;
-  }
-  
-  #mobtimeline .title{
-	  color: white;
-  }
-  
-  /* Small devices (landscape phones, 576px and up) */
-  @media (min-width: 640px) and (max-width: 768px) { 
-	  #mobtimeline::after {
-	  left: 28px;
-	  margin-top: 14%;
-	}
-   }
-  
-   @media (min-width: 462px) and (max-width: 639px) { 
-	  #mobtimeline::after {
-	  margin-top: 18%;
-	}
-   }
-  
-   @media (min-width: 375px) and (max-width: 461px) { 
-	  #mobtimeline::after {
-	  margin-top: 28%;
-	}
-   }
-  
-   @media (max-width: 374px) { 
-	  #mobtimeline::after {
-	  margin-top: 31%;
-	}
-   }
-  
-  
-  @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
   /* Place the timelime to the left */
-   #mobtimeline::after {
-	  left: 28px;
-	  margin-bottom: 71px;
-	}
+  #mobtimeline::after {
+    left: 28px;
+    margin-bottom: 71px;
   }
-	@media screen and (max-width: 768px) { 
-  
+}
+@media screen and (max-width: 768px) {
   /* Full-width containers */
-   #mobtimeline .container {
-	  width: 100%;
-	  padding-left: 70px;
-	  padding-right: 25px;
-	}
-  
+  #mobtimeline .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
   /* Make sure that all arrows are pointing leftwards */
-   #mobtimeline .container::before {
-	  left: 60px;
-	  border: medium solid white;
-	  border-width: 10px 10px 10px 0;
-	  border-color: transparent white transparent transparent;
-	}
-  
+  #mobtimeline .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
   /* Make sure all circles are at the same spot */
-  #mobtimeline .left::after,  #mobtimeline .right::after {
-	  left: 15px;
-	}
-  
+  #mobtimeline .left::after,
+  #mobtimeline .right::after {
+    left: 15px;
+  }
+
   /* Make all right containers behave like the left ones */
-   #mobtimeline .right {
-	  left: 0%;
-	}
+  #mobtimeline .right {
+    left: 0%;
   }
+}
 
-  #mobtimeline .content h2 {
-	  font-size: 20px;
-  }
+#mobtimeline .content h2 {
+  font-size: 20px;
+}
 
-  #mobtimeline .content h4 {
-	font-size: 20px;
-	font-weight: normal;
+#mobtimeline .content h4 {
+  font-size: 20px;
+  font-weight: normal;
 }
 
 @media screen and (max-width: 768px) {
@@ -793,11 +792,12 @@ h6 {
   }
 }
 
-
 /* team section */
 
 #team {
-  background: #202020 url('https://ik.imagekit.io/jjwv9v5d2vxv/intensa_gallery/team-bg_r2azN-NxN.jpg') 50% 0 repeat-y fixed;
+  background: #202020
+    url("https://ik.imagekit.io/jjwv9v5d2vxv/intensa_gallery/team-bg_r2azN-NxN.jpg")
+    50% 0 repeat-y fixed;
   color: #ffffff;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -807,14 +807,14 @@ h6 {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
- 
+
 .our-webcoderskull ul li {
   display: none;
-} 
+}
 
 .loadmore {
   margin-top: 30px;
-  background: #43C0F6;
+  background: #43c0f6;
   border-radius: 4px;
   border: none;
   color: #ffffff;
@@ -824,68 +824,67 @@ h6 {
 }
 
 #team .loadmore:hover {
-	color: white;
-    background-color: #0a9bda;
+  color: white;
+  background-color: #0a9bda;
   transition: all 0.2s ease-in-out;
 }
 
 #team .loadmore:focus {
-	color: white;
-    background-color: #0a9bda;
+  color: white;
+  background-color: #0a9bda;
 }
 
-ul{
-	margin:0;
-	padding:0;
-	list-style:none;
-  }
-  
-  .our-webcoderskull .cnt-block{ 
-	 float:left; 
-	 width:100%; 
-	 background:#fff; 
-	 padding:30px 20px; 
-	 text-align:center; 
-	 border:2px solid #d5d5d5;
-	 margin: 0 0 28px;
-  }
-  .our-webcoderskull .cnt-block figure{
-	 width:148px; 
-	 height:148px; 
-	 border-radius:100%; 
-	 display:inline-block;
-	 margin-bottom: 15px;
-	 
-  }
-  .our-webcoderskull .cnt-block img{ 
-	 width:148px; 
-	 height:148px; 
-	 border-radius:100%; 
-  }
-  .our-webcoderskull .cnt-block h3{ 
-	 color:#2a2a2a; 
-	 font-size:20px; 
-	 font-weight:500; 
-	 padding:6px 0;
-	 text-transform:uppercase;
-  }
-  .our-webcoderskull .cnt-block h3 a{
-	text-decoration:none;
-	  color:#2a2a2a;
-  }
-  .our-webcoderskull .cnt-block h3 a:hover{
-	  color:#337ab7;
-  }
-  .our-webcoderskull .cnt-block p{ 
-	 color:#2a2a2a; 
-	 font-size:13px; 
-	 line-height:20px; 
-	 font-weight:400;
-  }
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-  .our-webcoderskull .cnt-block:hover {
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-    transform: scale(1.05);
+.our-webcoderskull .cnt-block {
+  float: left;
+  width: 100%;
+  background: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  border: 2px solid #d5d5d5;
+  margin: 0 0 28px;
+}
+.our-webcoderskull .cnt-block figure {
+  width: 148px;
+  height: 148px;
+  border-radius: 100%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.our-webcoderskull .cnt-block img {
+  width: 148px;
+  height: 148px;
+  border-radius: 100%;
+}
+.our-webcoderskull .cnt-block h3 {
+  color: #2a2a2a;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 6px 0;
+  text-transform: uppercase;
+}
+.our-webcoderskull .cnt-block h3 a {
+  text-decoration: none;
+  color: #2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover {
+  color: #337ab7;
+}
+.our-webcoderskull .cnt-block p {
+  color: #2a2a2a;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.our-webcoderskull .cnt-block:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
 }
 /* newsletter section */
 
@@ -911,7 +910,7 @@ ul{
 }
 
 #newsletter .content .content-overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   height: 99%;
   width: 100%;
@@ -925,7 +924,7 @@ ul{
   transition: all 0.4s ease-in-out 0s;
 }
 
-#newsletter .content:hover .content-overlay{
+#newsletter .content:hover .content-overlay {
   opacity: 1;
 }
 
@@ -946,13 +945,13 @@ ul{
   transition: all 0.3s ease-in-out 0s;
 }
 
-#newsletter .content:hover .content-details{
+#newsletter .content:hover .content-details {
   top: 50%;
   left: 50%;
   opacity: 1;
 }
 
-#newsletter .content-details h3{
+#newsletter .content-details h3 {
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.15em;
@@ -961,12 +960,12 @@ ul{
   font-size: 20px;
 }
 
-#newsletter .content-details p{
+#newsletter .content-details p {
   color: #fff;
   font-size: 0.8em;
 }
 
-#newsletter .content-image{
+#newsletter .content-image {
   width: 100%;
   transition: all 0.4s ease-in-out;
 }
@@ -990,15 +989,15 @@ ul{
 }
 
 @media (max-width: 768px) {
-	#newsletter {
-		padding-top: 45px;
-	}
+  #newsletter {
+    padding-top: 45px;
+  }
 
-	#newsletter h2 {
-		line-height: 0;
-		font-size: 30px;
-		color: #606060;
-	}
+  #newsletter h2 {
+    line-height: 0;
+    font-size: 30px;
+    color: #606060;
+  }
 }
 
 /*gallery section*/
@@ -1034,7 +1033,7 @@ ol.type li {
 }
 
 ol.type li div {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #444;
   font-size: 14px;
   padding: 10px 20px;
@@ -1055,11 +1054,11 @@ ol.type li div:hover {
 }
 
 .isotope-item {
-  z-index: 2
+  z-index: 2;
 }
 
 .isotope-hidden.isotope-item {
-  z-index: 1
+  z-index: 1;
 }
 
 .isotope,
@@ -1094,16 +1093,16 @@ ol.type li div:hover {
 }
 
 @media (max-width: 768px) {
-	#gallery {
-		padding-top: 45px;
-	}
+  #gallery {
+    padding-top: 45px;
+  }
 
-	#gallery h2 {
-		line-height: 0;
-		font-size: 30px;
-		color: #606060;
-		padding-bottom: 30px;
-	}
+  #gallery h2 {
+    line-height: 0;
+    font-size: 30px;
+    color: #606060;
+    padding-bottom: 30px;
+  }
 }
 
 /* contact section */
@@ -1115,7 +1114,9 @@ ol.type li div:hover {
   padding-bottom: 80px;
 }
 
-#contact .info .email:hover i, #contact .info .address:hover i, #contact .info .phone:hover i {
+#contact .info .email:hover i,
+#contact .info .address:hover i,
+#contact .info .phone:hover i {
   background: #308fc3;
   color: #fff;
 }
@@ -1154,9 +1155,9 @@ ol.type li div:hover {
 }
 
 @media (max-width: 768px) {
-#contact {
-	padding-top: 45px;
-}
+  #contact {
+    padding-top: 45px;
+  }
 }
 
 /* footer section */
@@ -1214,14 +1215,14 @@ footer .copyright a {
 }
 
 @media (max-width: 768px) {
-footer h2 {
+  footer h2 {
     padding-top: 0;
     font-size: 30px;
     padding-bottom: 20px;
-}
+  }
 }
 
-@media screen and (max-width:980px) {
+@media screen and (max-width: 980px) {
   .navbar-default .navbar-nav li a {
     padding-right: 14px;
     padding-left: 14px;
@@ -1238,13 +1239,13 @@ footer h2 {
   }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .navbar-brand {
     padding-top: 6px;
   }
 }
 
-@media (max-width:400px) {
+@media (max-width: 400px) {
   #intro h2 {
     font-size: 20px;
   }
