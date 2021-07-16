@@ -183,7 +183,7 @@ $(document).ready(function () {
 });
 
 function updateCounter() {
-	fetch('https://api.countapi.xyz/update/gecintensa/gecintensa?amount=-1')
+	fetch('https://api.countapi.xyz/update/gecintensa/gecintensa?amount=1')
 		.then(res => res.json())
 		.then(data => counterElement.innerHTML = data.value)
 }
